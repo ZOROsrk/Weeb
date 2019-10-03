@@ -11,10 +11,10 @@ class Character {
 
 List characters = [
   Character(
-      name: "Naruto Uzumaki",
-      imagePath: "assets/images/naruto.png",
+      name: "Vegetables",
+      imagePath: "assets/images/veg2.png",
       description:
-          "Naruto is, of course, the main character of the anime “Naruto”. He is a  ninja who’s goal is to become the “Kage” or Chief of his hometown, The village hidden in the leaves. Naruto is very different compared to other  kid ninjas in his hometown. He doesn’t have any special bloodline powers like some other kids do, but when he was born he was cursed with the power of the nine-tailed demon fox sealed inside of his body.",
+          "Tomatos Left : 250g \n\ncucumber left : 200g \n\nCarrot Left : 150g \n\nOnions Left: 200g",
       colors: [Colors.orange.shade200, Colors.orange.shade400]),
       Character(
       name: "Luffy",

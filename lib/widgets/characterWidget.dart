@@ -46,7 +46,7 @@ class CharacterWidget extends StatelessWidget {
               tag: "goToImage-${characters[0].name}",
               child: Image.asset(
                 characters[0].imagePath,
-                height: 0.55 * screenHeight,
+                height: 0.48 * screenHeight,
               ),
             ),
           ),
@@ -61,9 +61,13 @@ class CharacterWidget extends StatelessWidget {
                   child: Material(
                     color: Colors.transparent,
                     child: Container(
-                      child: new Text(
-                        characters[0].name,
-                        style: AppTheam.heading,
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: 5),
+                        child: new Text(
+                          
+                          characters[0].name,
+                          style: AppTheam.heading,
+                        ),
                       ),
                     ),
                   ),

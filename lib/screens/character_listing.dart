@@ -29,8 +29,8 @@ class _CharacterListingScreenState extends State<CharacterListingScreen> {
               padding: const EdgeInsets.only(left: 30, top: 3),
               child: RichText(
                 text: TextSpan(children: [
-                  new TextSpan(text: "Anime \n", style: AppTheam.display1),
-                  new TextSpan(text: "Characters", style: AppTheam.display2)
+                  new TextSpan(text: "Kitchen \n", style: AppTheam.display1),
+                  new TextSpan(text: "Yantra", style: AppTheam.display2)
                 ]),
               ),
             ),
